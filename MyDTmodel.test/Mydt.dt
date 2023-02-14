@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dT:Configuration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dT="http://www.example.org/dT" name="">
+  <configuration name="HomeAutomationSystem: CPS">
+    <component name="wifiRouter : hardware"/>
+    <connector name="zWave : Connector"/>
+    <connector name="wifiCard : Connector"/>
+    <configuration name="BedPressureSensorPredictionSystem">
+      <configuration name="computerBedPressureSensor : hardware">
+        <component name="wifiCard : Hardware"/>
+        <configuration name="LinusOS : SoftwareTool">
+          <configuration name="pythonFlaskServerForBedPressure : SoftwareTool">
+            <configuration name="bedPressureSimulationService : Service">
+              <component name="bedPressurePredictorModel : Script"/>
+              <connector name="httpAPI : Connector">
+                <connectorend/>
+              </connector>
+            </configuration>
+          </configuration>
+        </configuration>
+      </configuration>
+    </configuration>
+    <configuration name="OpenHabPlatform : CPS">
+      <configuration name="RaspberryPi : hardware">
+        <component name="zWaveDongle : Hardware"/>
+        <component name="wifiCard : Hardware"/>
+        <configuration name="RaspberriPiOS : Software">
+          <configuration name="OpenHab : softwareTool">
+            <component name="zipatoLightBulbThing : Script"/>
+            <connector name="zWaveBinding : Connector"/>
+            <configuration name="BedPressureDataCollector : Service">
+              <component name="bedPressureSensorThing : Service"/>
+              <component name="bedPressureSensorPredictor : Script"/>
+              <connector name="httpBinding : Connector"/>
+            </configuration>
+          </configuration>
+        </configuration>
+      </configuration>
+    </configuration>
+    <configuration name="smartLightBulb : CPS">
+      <component name="zipatoLightBulb : hardware"/>
+    </configuration>
+  </configuration>
+</dT:Configuration>
