@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:dtmodel="http://www.example.org/dtmodel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_0fGoILxZEe2ABsnvO17sUg" selectedViews="_TN8UALxaEe2N6_oE4zYTRg" version="15.0.0.202209061200">
+    <semanticResources>My.dtmodel</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_TN8UALxaEe2N6_oE4zYTRg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_ULkZ4LxaEe2N6_oE4zYTRg" name="new dtDiagram" repPath="#_ULPCsLxaEe2N6_oE4zYTRg" changeId="67c23dbf-c4ec-41d7-a211-eeeb0549ca4a">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']"/>
+        <target xmi:type="dtmodel:DigitalTwin" href="My.dtmodel#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_ULPCsLxaEe2N6_oE4zYTRg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_UMJosLxaEe2N6_oE4zYTRg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_UMJosbxaEe2N6_oE4zYTRg" type="Sirius" element="_ULPCsLxaEe2N6_oE4zYTRg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_PGGMgLxoEe2bCOMYyB-eQQ" type="2002" element="_PFMNkLxoEe2bCOMYyB-eQQ">
+          <children xmi:type="notation:Node" xmi:id="_PGGMg7xoEe2bCOMYyB-eQQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_PGGMhLxoEe2bCOMYyB-eQQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_PGGMh7xoEe2bCOMYyB-eQQ" type="3008" element="_PFM0orxoEe2bCOMYyB-eQQ">
+              <children xmi:type="notation:Node" xmi:id="_PGGzkLxoEe2bCOMYyB-eQQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_PGGzkbxoEe2bCOMYyB-eQQ" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_PGGzlLxoEe2bCOMYyB-eQQ" type="3008" element="_PFM0pbxoEe2bCOMYyB-eQQ">
+                  <children xmi:type="notation:Node" xmi:id="_PGGzl7xoEe2bCOMYyB-eQQ" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_PGGzmLxoEe2bCOMYyB-eQQ" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_PGHarLxoEe2bCOMYyB-eQQ" type="3008" element="_PFNbs7xoEe2bCOMYyB-eQQ">
+                      <children xmi:type="notation:Node" xmi:id="_PGIBsLxoEe2bCOMYyB-eQQ" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_PGIBsbxoEe2bCOMYyB-eQQ" type="7002">
+                        <children xmi:type="notation:Node" xmi:id="_PGIBtLxoEe2bCOMYyB-eQQ" type="3008" element="_PFNbtrxoEe2bCOMYyB-eQQ">
+                          <children xmi:type="notation:Node" xmi:id="_PGIBt7xoEe2bCOMYyB-eQQ" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_PGIBuLxoEe2bCOMYyB-eQQ" type="7002">
+                            <children xmi:type="notation:Node" xmi:id="_PGIowLxoEe2bCOMYyB-eQQ" type="3008" element="_PFNbubxoEe2bCOMYyB-eQQ">
+                              <children xmi:type="notation:Node" xmi:id="_PGIow7xoEe2bCOMYyB-eQQ" type="5005"/>
+                              <children xmi:type="notation:Node" xmi:id="_PGIoxLxoEe2bCOMYyB-eQQ" type="7002">
+                                <children xmi:type="notation:Node" xmi:id="_ExqLdbxsEe2bCOMYyB-eQQ" type="3007" element="_Ewvlc7xsEe2bCOMYyB-eQQ">
+                                  <children xmi:type="notation:Node" xmi:id="_ExqLeLxsEe2bCOMYyB-eQQ" type="5003">
+                                    <layoutConstraint xmi:type="notation:Location" xmi:id="_ExqLebxsEe2bCOMYyB-eQQ" y="5"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_ExqLerxsEe2bCOMYyB-eQQ" type="3003" element="_EwvldLxsEe2bCOMYyB-eQQ">
+                                    <styles xmi:type="notation:ShapeStyle" xmi:id="_ExqLe7xsEe2bCOMYyB-eQQ" fontName="Segoe UI"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExqLfLxsEe2bCOMYyB-eQQ"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_Y5_08MMKEe2oR4DqB1cnyQ" type="3001" element="_Y5EA0sMKEe2oR4DqB1cnyQ">
+                                    <children xmi:type="notation:Node" xmi:id="_Y6AcAMMKEe2oR4DqB1cnyQ" type="5001">
+                                      <layoutConstraint xmi:type="notation:Location" xmi:id="_Y6AcAcMKEe2oR4DqB1cnyQ" y="5"/>
+                                    </children>
+                                    <children xmi:type="notation:Node" xmi:id="_Y6AcAsMKEe2oR4DqB1cnyQ" type="3002" element="_Y5FO8MMKEe2oR4DqB1cnyQ">
+                                      <styles xmi:type="notation:ShapeStyle" xmi:id="_Y6AcA8MKEe2oR4DqB1cnyQ" fontName="Segoe UI"/>
+                                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6AcBMMKEe2oR4DqB1cnyQ"/>
+                                    </children>
+                                    <styles xmi:type="notation:ShapeStyle" xmi:id="_Y5_08cMKEe2oR4DqB1cnyQ" fontName="Segoe UI" fontHeight="12"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y5_08sMKEe2oR4DqB1cnyQ" x="-22" y="3" width="30" height="30"/>
+                                  </children>
+                                  <styles xmi:type="notation:ShapeStyle" xmi:id="_ExqLdrxsEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExqLd7xsEe2bCOMYyB-eQQ" x="15" y="53" width="161" height="96"/>
+                                </children>
+                                <children xmi:type="notation:Node" xmi:id="_sKl5oLxsEe2bCOMYyB-eQQ" type="3007" element="_sJpefbxsEe2bCOMYyB-eQQ">
+                                  <children xmi:type="notation:Node" xmi:id="_sKmgsLxsEe2bCOMYyB-eQQ" type="5003">
+                                    <layoutConstraint xmi:type="notation:Location" xmi:id="_sKmgsbxsEe2bCOMYyB-eQQ" y="5"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_sKmgsrxsEe2bCOMYyB-eQQ" type="3017" element="_sJpefrxsEe2bCOMYyB-eQQ">
+                                    <styles xmi:type="notation:ShapeStyle" xmi:id="_sKmgs7xsEe2bCOMYyB-eQQ" fontName="Segoe UI"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKmgtLxsEe2bCOMYyB-eQQ"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_jWheMMMKEe2oR4DqB1cnyQ" type="3001" element="_jVgxkcMKEe2oR4DqB1cnyQ">
+                                    <children xmi:type="notation:Node" xmi:id="_jWheM8MKEe2oR4DqB1cnyQ" type="5001">
+                                      <layoutConstraint xmi:type="notation:Location" xmi:id="_jWheNMMKEe2oR4DqB1cnyQ" y="5"/>
+                                    </children>
+                                    <children xmi:type="notation:Node" xmi:id="_jWiFQMMKEe2oR4DqB1cnyQ" type="3002" element="_jVgxksMKEe2oR4DqB1cnyQ">
+                                      <styles xmi:type="notation:ShapeStyle" xmi:id="_jWiFQcMKEe2oR4DqB1cnyQ" fontName="Segoe UI"/>
+                                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jWiFQsMKEe2oR4DqB1cnyQ"/>
+                                    </children>
+                                    <styles xmi:type="notation:ShapeStyle" xmi:id="_jWheMcMKEe2oR4DqB1cnyQ" fontName="Segoe UI" fontHeight="12"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jWheMsMKEe2oR4DqB1cnyQ" x="-22" y="3" width="30" height="30"/>
+                                  </children>
+                                  <styles xmi:type="notation:ShapeStyle" xmi:id="_sKl5obxsEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKl5orxsEe2bCOMYyB-eQQ" x="235" y="53" width="136" height="86"/>
+                                </children>
+                                <styles xmi:type="notation:SortingStyle" xmi:id="_PGIoxbxoEe2bCOMYyB-eQQ"/>
+                                <styles xmi:type="notation:FilteringStyle" xmi:id="_PGIoxrxoEe2bCOMYyB-eQQ"/>
+                              </children>
+                              <styles xmi:type="notation:ShapeStyle" xmi:id="_PGIowbxoEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PGIowrxoEe2bCOMYyB-eQQ" x="20" y="34" width="448" height="173"/>
+                            </children>
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_PGIBubxoEe2bCOMYyB-eQQ"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_PGIBurxoEe2bCOMYyB-eQQ"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_PGIBtbxoEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PGIBtrxoEe2bCOMYyB-eQQ" x="15" y="29" width="523" height="216"/>
+                        </children>
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_PGIBsrxoEe2bCOMYyB-eQQ"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_PGIBs7xoEe2bCOMYyB-eQQ"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_PGHarbxoEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PGHarrxoEe2bCOMYyB-eQQ" x="10" y="34" width="578" height="259"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_ExqLcLxsEe2bCOMYyB-eQQ" type="3007" element="_EwvldrxsEe2bCOMYyB-eQQ">
+                      <children xmi:type="notation:Node" xmi:id="_ExqLc7xsEe2bCOMYyB-eQQ" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_ExqLdLxsEe2bCOMYyB-eQQ" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_ExqLfbxsEe2bCOMYyB-eQQ" type="3003" element="_Ewvld7xsEe2bCOMYyB-eQQ">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_ExqLfrxsEe2bCOMYyB-eQQ" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExqLf7xsEe2bCOMYyB-eQQ"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Y6BDEMMKEe2oR4DqB1cnyQ" type="3001" element="_Y5HEIsMKEe2oR4DqB1cnyQ">
+                        <children xmi:type="notation:Node" xmi:id="_Y6BqIMMKEe2oR4DqB1cnyQ" type="5001">
+                          <layoutConstraint xmi:type="notation:Location" xmi:id="_Y6BqIcMKEe2oR4DqB1cnyQ" y="5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_Y6BqIsMKEe2oR4DqB1cnyQ" type="3002" element="_Y5HrMMMKEe2oR4DqB1cnyQ">
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_Y6BqI8MKEe2oR4DqB1cnyQ" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6BqJMMKEe2oR4DqB1cnyQ"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_Y6BDEcMKEe2oR4DqB1cnyQ" fontName="Segoe UI" fontHeight="12"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6BDEsMKEe2oR4DqB1cnyQ" x="-22" y="1" width="30" height="30"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_ExqLcbxsEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExqLcrxsEe2bCOMYyB-eQQ" x="620" y="134" width="146" height="55"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_PGGzmbxoEe2bCOMYyB-eQQ"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_PGGzmrxoEe2bCOMYyB-eQQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_PGGzlbxoEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PGGzlrxoEe2bCOMYyB-eQQ" x="10" y="39" width="788" height="307"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_PGGzkrxoEe2bCOMYyB-eQQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_PGGzk7xoEe2bCOMYyB-eQQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_PGGMiLxoEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PGGMibxoEe2bCOMYyB-eQQ" x="15" y="493" width="838" height="365"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ZQkccLxoEe2bCOMYyB-eQQ" type="3008" element="_ZQeV0rxoEe2bCOMYyB-eQQ">
+              <children xmi:type="notation:Node" xmi:id="_ZQkcc7xoEe2bCOMYyB-eQQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_ZQkcdLxoEe2bCOMYyB-eQQ" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_ZQlDgLxoEe2bCOMYyB-eQQ" type="3008" element="_ZQfj8LxoEe2bCOMYyB-eQQ">
+                  <children xmi:type="notation:Node" xmi:id="_ZQlDg7xoEe2bCOMYyB-eQQ" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_ZQlDhLxoEe2bCOMYyB-eQQ" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_ZQlDh7xoEe2bCOMYyB-eQQ" type="3008" element="_ZQfj87xoEe2bCOMYyB-eQQ">
+                      <children xmi:type="notation:Node" xmi:id="_ZQlDirxoEe2bCOMYyB-eQQ" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_ZQlqkLxoEe2bCOMYyB-eQQ" type="7002">
+                        <children xmi:type="notation:Node" xmi:id="_ZQlqk7xoEe2bCOMYyB-eQQ" type="3008" element="_ZQfj9rxoEe2bCOMYyB-eQQ">
+                          <children xmi:type="notation:Node" xmi:id="_ZQlqlrxoEe2bCOMYyB-eQQ" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_ZQlql7xoEe2bCOMYyB-eQQ" type="7002">
+                            <children xmi:type="notation:Node" xmi:id="_ZQlqmrxoEe2bCOMYyB-eQQ" type="3008" element="_ZQfj-bxoEe2bCOMYyB-eQQ">
+                              <children xmi:type="notation:Node" xmi:id="_ZQlqnbxoEe2bCOMYyB-eQQ" type="5005"/>
+                              <children xmi:type="notation:Node" xmi:id="_ZQlqnrxoEe2bCOMYyB-eQQ" type="7002">
+                                <children xmi:type="notation:Node" xmi:id="_ExqyjLxsEe2bCOMYyB-eQQ" type="3007" element="_EwwMiLxsEe2bCOMYyB-eQQ">
+                                  <children xmi:type="notation:Node" xmi:id="_ExrZkLxsEe2bCOMYyB-eQQ" type="5003">
+                                    <layoutConstraint xmi:type="notation:Location" xmi:id="_ExrZkbxsEe2bCOMYyB-eQQ" y="5"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_ExrZl7xsEe2bCOMYyB-eQQ" type="3003" element="_EwwMibxsEe2bCOMYyB-eQQ">
+                                    <styles xmi:type="notation:ShapeStyle" xmi:id="_ExrZmLxsEe2bCOMYyB-eQQ" fontName="Segoe UI"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExrZmbxsEe2bCOMYyB-eQQ"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_Y6CRMMMKEe2oR4DqB1cnyQ" type="3001" element="_Y5JgYsMKEe2oR4DqB1cnyQ">
+                                    <children xmi:type="notation:Node" xmi:id="_Y6CRM8MKEe2oR4DqB1cnyQ" type="5001">
+                                      <layoutConstraint xmi:type="notation:Location" xmi:id="_Y6CRNMMKEe2oR4DqB1cnyQ" y="5"/>
+                                    </children>
+                                    <children xmi:type="notation:Node" xmi:id="_Y6CRNcMKEe2oR4DqB1cnyQ" type="3002" element="_Y5JgY8MKEe2oR4DqB1cnyQ">
+                                      <styles xmi:type="notation:ShapeStyle" xmi:id="_Y6CRNsMKEe2oR4DqB1cnyQ" fontName="Segoe UI"/>
+                                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6CRN8MKEe2oR4DqB1cnyQ"/>
+                                    </children>
+                                    <styles xmi:type="notation:ShapeStyle" xmi:id="_Y6CRMcMKEe2oR4DqB1cnyQ" fontName="Segoe UI" fontHeight="12"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6CRMsMKEe2oR4DqB1cnyQ" x="-22" width="30" height="30"/>
+                                  </children>
+                                  <styles xmi:type="notation:ShapeStyle" xmi:id="_ExqyjbxsEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExqyjrxsEe2bCOMYyB-eQQ" x="5" y="44" width="81" height="30"/>
+                                </children>
+                                <children xmi:type="notation:Node" xmi:id="_ExrZkrxsEe2bCOMYyB-eQQ" type="3007" element="_EwwzkLxsEe2bCOMYyB-eQQ">
+                                  <children xmi:type="notation:Node" xmi:id="_ExrZlbxsEe2bCOMYyB-eQQ" type="5003">
+                                    <layoutConstraint xmi:type="notation:Location" xmi:id="_ExrZlrxsEe2bCOMYyB-eQQ" y="5"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_ExrZmrxsEe2bCOMYyB-eQQ" type="3003" element="_EwwzkbxsEe2bCOMYyB-eQQ">
+                                    <styles xmi:type="notation:ShapeStyle" xmi:id="_ExrZm7xsEe2bCOMYyB-eQQ" fontName="Segoe UI"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExrZnLxsEe2bCOMYyB-eQQ"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_Y6C4QMMKEe2oR4DqB1cnyQ" type="3001" element="_Y5KHcMMKEe2oR4DqB1cnyQ">
+                                    <children xmi:type="notation:Node" xmi:id="_Y6C4Q8MKEe2oR4DqB1cnyQ" type="5001">
+                                      <layoutConstraint xmi:type="notation:Location" xmi:id="_Y6C4RMMKEe2oR4DqB1cnyQ" y="5"/>
+                                    </children>
+                                    <children xmi:type="notation:Node" xmi:id="_Y6DfUMMKEe2oR4DqB1cnyQ" type="3002" element="_Y5KHccMKEe2oR4DqB1cnyQ">
+                                      <styles xmi:type="notation:ShapeStyle" xmi:id="_Y6DfUcMKEe2oR4DqB1cnyQ" fontName="Segoe UI"/>
+                                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6DfUsMKEe2oR4DqB1cnyQ"/>
+                                    </children>
+                                    <styles xmi:type="notation:ShapeStyle" xmi:id="_Y6C4QcMKEe2oR4DqB1cnyQ" fontName="Segoe UI" fontHeight="12"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6C4QsMKEe2oR4DqB1cnyQ" x="-22" y="3" width="30" height="30"/>
+                                  </children>
+                                  <styles xmi:type="notation:ShapeStyle" xmi:id="_ExrZk7xsEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExrZlLxsEe2bCOMYyB-eQQ" x="125" y="27" width="171" height="50"/>
+                                </children>
+                                <children xmi:type="notation:Node" xmi:id="_sKmgurxsEe2bCOMYyB-eQQ" type="3007" element="_sJrTpLxsEe2bCOMYyB-eQQ">
+                                  <children xmi:type="notation:Node" xmi:id="_sKnHwLxsEe2bCOMYyB-eQQ" type="5003">
+                                    <layoutConstraint xmi:type="notation:Location" xmi:id="_sKnHwbxsEe2bCOMYyB-eQQ" y="5"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_sKnHwrxsEe2bCOMYyB-eQQ" type="3017" element="_sJr6sLxsEe2bCOMYyB-eQQ">
+                                    <styles xmi:type="notation:ShapeStyle" xmi:id="_sKnHw7xsEe2bCOMYyB-eQQ" fontName="Segoe UI"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKnHxLxsEe2bCOMYyB-eQQ"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_jWiFQ8MKEe2oR4DqB1cnyQ" type="3001" element="_jVlDAsMKEe2oR4DqB1cnyQ">
+                                    <children xmi:type="notation:Node" xmi:id="_jWisUMMKEe2oR4DqB1cnyQ" type="5001">
+                                      <layoutConstraint xmi:type="notation:Location" xmi:id="_jWisUcMKEe2oR4DqB1cnyQ" y="5"/>
+                                    </children>
+                                    <children xmi:type="notation:Node" xmi:id="_jWisUsMKEe2oR4DqB1cnyQ" type="3002" element="_jVlDA8MKEe2oR4DqB1cnyQ">
+                                      <styles xmi:type="notation:ShapeStyle" xmi:id="_jWisU8MKEe2oR4DqB1cnyQ" fontName="Segoe UI"/>
+                                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jWisVMMKEe2oR4DqB1cnyQ"/>
+                                    </children>
+                                    <styles xmi:type="notation:ShapeStyle" xmi:id="_jWiFRMMKEe2oR4DqB1cnyQ" fontName="Segoe UI" fontHeight="12"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jWiFRcMKEe2oR4DqB1cnyQ" x="-22" width="30" height="30"/>
+                                  </children>
+                                  <styles xmi:type="notation:ShapeStyle" xmi:id="_sKmgu7xsEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKmgvLxsEe2bCOMYyB-eQQ" x="295" y="24" width="111" height="55"/>
+                                </children>
+                                <styles xmi:type="notation:SortingStyle" xmi:id="_ZQlqn7xoEe2bCOMYyB-eQQ"/>
+                                <styles xmi:type="notation:FilteringStyle" xmi:id="_ZQlqoLxoEe2bCOMYyB-eQQ"/>
+                              </children>
+                              <styles xmi:type="notation:ShapeStyle" xmi:id="_ZQlqm7xoEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZQlqnLxoEe2bCOMYyB-eQQ" x="5" y="114" width="413" height="93"/>
+                            </children>
+                            <children xmi:type="notation:Node" xmi:id="_Exqyh7xsEe2bCOMYyB-eQQ" type="3007" element="_Ewwzk7xsEe2bCOMYyB-eQQ">
+                              <children xmi:type="notation:Node" xmi:id="_ExqyirxsEe2bCOMYyB-eQQ" type="5003">
+                                <layoutConstraint xmi:type="notation:Location" xmi:id="_Exqyi7xsEe2bCOMYyB-eQQ" y="5"/>
+                              </children>
+                              <children xmi:type="notation:Node" xmi:id="_ExsAoLxsEe2bCOMYyB-eQQ" type="3003" element="_EwwzlLxsEe2bCOMYyB-eQQ">
+                                <styles xmi:type="notation:ShapeStyle" xmi:id="_ExsAobxsEe2bCOMYyB-eQQ" fontName="Segoe UI"/>
+                                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExsAorxsEe2bCOMYyB-eQQ"/>
+                              </children>
+                              <children xmi:type="notation:Node" xmi:id="_Y6DfU8MKEe2oR4DqB1cnyQ" type="3001" element="_Y5KuhMMKEe2oR4DqB1cnyQ">
+                                <children xmi:type="notation:Node" xmi:id="_Y6DfVsMKEe2oR4DqB1cnyQ" type="5001">
+                                  <layoutConstraint xmi:type="notation:Location" xmi:id="_Y6DfV8MKEe2oR4DqB1cnyQ" y="5"/>
+                                </children>
+                                <children xmi:type="notation:Node" xmi:id="_Y6DfWMMKEe2oR4DqB1cnyQ" type="3002" element="_Y5KuhcMKEe2oR4DqB1cnyQ">
+                                  <styles xmi:type="notation:ShapeStyle" xmi:id="_Y6DfWcMKEe2oR4DqB1cnyQ" fontName="Segoe UI"/>
+                                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6DfWsMKEe2oR4DqB1cnyQ"/>
+                                </children>
+                                <styles xmi:type="notation:ShapeStyle" xmi:id="_Y6DfVMMKEe2oR4DqB1cnyQ" fontName="Segoe UI" fontHeight="12"/>
+                                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6DfVcMKEe2oR4DqB1cnyQ" x="-22" y="4" width="30" height="30"/>
+                              </children>
+                              <styles xmi:type="notation:ShapeStyle" xmi:id="_ExqyiLxsEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExqyibxsEe2bCOMYyB-eQQ" x="25" y="44" width="201" height="55"/>
+                            </children>
+                            <children xmi:type="notation:Node" xmi:id="_sKmgtbxsEe2bCOMYyB-eQQ" type="3007" element="_sJr6tLxsEe2bCOMYyB-eQQ">
+                              <children xmi:type="notation:Node" xmi:id="_sKmguLxsEe2bCOMYyB-eQQ" type="5003">
+                                <layoutConstraint xmi:type="notation:Location" xmi:id="_sKmgubxsEe2bCOMYyB-eQQ" y="5"/>
+                              </children>
+                              <children xmi:type="notation:Node" xmi:id="_sKnHxbxsEe2bCOMYyB-eQQ" type="3017" element="_sJr6tbxsEe2bCOMYyB-eQQ">
+                                <styles xmi:type="notation:ShapeStyle" xmi:id="_sKnHxrxsEe2bCOMYyB-eQQ" fontName="Segoe UI"/>
+                                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKnHx7xsEe2bCOMYyB-eQQ"/>
+                              </children>
+                              <children xmi:type="notation:Node" xmi:id="_jWjTYMMKEe2oR4DqB1cnyQ" type="3001" element="_jVm4MMMKEe2oR4DqB1cnyQ">
+                                <children xmi:type="notation:Node" xmi:id="_jWjTY8MKEe2oR4DqB1cnyQ" type="5001">
+                                  <layoutConstraint xmi:type="notation:Location" xmi:id="_jWjTZMMKEe2oR4DqB1cnyQ" y="5"/>
+                                </children>
+                                <children xmi:type="notation:Node" xmi:id="_jWjTZcMKEe2oR4DqB1cnyQ" type="3002" element="_jVm4McMKEe2oR4DqB1cnyQ">
+                                  <styles xmi:type="notation:ShapeStyle" xmi:id="_jWjTZsMKEe2oR4DqB1cnyQ" fontName="Segoe UI"/>
+                                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jWjTZ8MKEe2oR4DqB1cnyQ"/>
+                                </children>
+                                <styles xmi:type="notation:ShapeStyle" xmi:id="_jWjTYcMKEe2oR4DqB1cnyQ" fontName="Segoe UI" fontHeight="12"/>
+                                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jWjTYsMKEe2oR4DqB1cnyQ" x="-22" width="30" height="30"/>
+                              </children>
+                              <styles xmi:type="notation:ShapeStyle" xmi:id="_sKmgtrxsEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKmgt7xsEe2bCOMYyB-eQQ" x="365" y="24" width="156" height="81"/>
+                            </children>
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_ZQlqmLxoEe2bCOMYyB-eQQ"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_ZQlqmbxoEe2bCOMYyB-eQQ"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_ZQlqlLxoEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZQlqlbxoEe2bCOMYyB-eQQ" x="5" y="24" width="563" height="226"/>
+                        </children>
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_ZQlqkbxoEe2bCOMYyB-eQQ"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_ZQlqkrxoEe2bCOMYyB-eQQ"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_ZQlDiLxoEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZQlDibxoEe2bCOMYyB-eQQ" x="5" y="26" width="588" height="264"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_ExqLgLxsEe2bCOMYyB-eQQ" type="3007" element="_EwxaoLxsEe2bCOMYyB-eQQ">
+                      <children xmi:type="notation:Node" xmi:id="_ExqygLxsEe2bCOMYyB-eQQ" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_ExqygbxsEe2bCOMYyB-eQQ" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_ExsAo7xsEe2bCOMYyB-eQQ" type="3003" element="_EwxaobxsEe2bCOMYyB-eQQ">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_ExsApLxsEe2bCOMYyB-eQQ" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExsApbxsEe2bCOMYyB-eQQ"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Y6EtcMMKEe2oR4DqB1cnyQ" type="3001" element="_Y5L8pMMKEe2oR4DqB1cnyQ">
+                        <children xmi:type="notation:Node" xmi:id="_Y6Etc8MKEe2oR4DqB1cnyQ" type="5001">
+                          <layoutConstraint xmi:type="notation:Location" xmi:id="_Y6EtdMMKEe2oR4DqB1cnyQ" y="5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_Y6EtdcMKEe2oR4DqB1cnyQ" type="3002" element="_Y5L8pcMKEe2oR4DqB1cnyQ">
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_Y6EtdsMKEe2oR4DqB1cnyQ" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6Etd8MKEe2oR4DqB1cnyQ"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_Y6EtccMKEe2oR4DqB1cnyQ" fontName="Segoe UI" fontHeight="12"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6EtcsMKEe2oR4DqB1cnyQ" x="-22" y="3" width="30" height="30"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_ExqLgbxsEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExqLgrxsEe2bCOMYyB-eQQ" x="605" y="179" width="126" height="51"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_ExqygrxsEe2bCOMYyB-eQQ" type="3007" element="_Ewxao7xsEe2bCOMYyB-eQQ">
+                      <children xmi:type="notation:Node" xmi:id="_ExqyhbxsEe2bCOMYyB-eQQ" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_ExqyhrxsEe2bCOMYyB-eQQ" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_ExsAprxsEe2bCOMYyB-eQQ" type="3003" element="_EwxapLxsEe2bCOMYyB-eQQ">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_ExsAp7xsEe2bCOMYyB-eQQ" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExsAqLxsEe2bCOMYyB-eQQ"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Y6FUgMMKEe2oR4DqB1cnyQ" type="3001" element="_Y5MjsMMKEe2oR4DqB1cnyQ">
+                        <children xmi:type="notation:Node" xmi:id="_Y6FUg8MKEe2oR4DqB1cnyQ" type="5001">
+                          <layoutConstraint xmi:type="notation:Location" xmi:id="_Y6FUhMMKEe2oR4DqB1cnyQ" y="5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_Y6F7kMMKEe2oR4DqB1cnyQ" type="3002" element="_Y5MjscMKEe2oR4DqB1cnyQ">
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_Y6F7kcMKEe2oR4DqB1cnyQ" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6F7ksMKEe2oR4DqB1cnyQ"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_Y6FUgcMKEe2oR4DqB1cnyQ" fontName="Segoe UI" fontHeight="12"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6FUgsMKEe2oR4DqB1cnyQ" x="-22" y="2" width="30" height="30"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_Exqyg7xsEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExqyhLxsEe2bCOMYyB-eQQ" x="605" y="54" width="126" height="86"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_ZQlDhbxoEe2bCOMYyB-eQQ"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_ZQlDhrxoEe2bCOMYyB-eQQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_ZQlDgbxoEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZQlDgrxoEe2bCOMYyB-eQQ" y="24" width="818" height="301"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_ZQkcdbxoEe2bCOMYyB-eQQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_ZQkcdrxoEe2bCOMYyB-eQQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ZQkccbxoEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZQkccrxoEe2bCOMYyB-eQQ" x="5" y="29" width="843" height="344"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ZQkcd7xoEe2bCOMYyB-eQQ" type="3008" element="_ZQeV1bxoEe2bCOMYyB-eQQ">
+              <children xmi:type="notation:Node" xmi:id="_ZQkcerxoEe2bCOMYyB-eQQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_ZQkce7xoEe2bCOMYyB-eQQ" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_ExsnsLxsEe2bCOMYyB-eQQ" type="3007" element="_EwxaprxsEe2bCOMYyB-eQQ">
+                  <children xmi:type="notation:Node" xmi:id="_Exsns7xsEe2bCOMYyB-eQQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_ExsntLxsEe2bCOMYyB-eQQ" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_ExsntbxsEe2bCOMYyB-eQQ" type="3003" element="_Ewxap7xsEe2bCOMYyB-eQQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_ExsntrxsEe2bCOMYyB-eQQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Exsnt7xsEe2bCOMYyB-eQQ"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_Y6F7k8MKEe2oR4DqB1cnyQ" type="3001" element="_Y5Nx0sMKEe2oR4DqB1cnyQ">
+                    <children xmi:type="notation:Node" xmi:id="_Y6F7lsMKEe2oR4DqB1cnyQ" type="5001">
+                      <layoutConstraint xmi:type="notation:Location" xmi:id="_Y6F7l8MKEe2oR4DqB1cnyQ" y="5"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_Y6GioMMKEe2oR4DqB1cnyQ" type="3002" element="_Y5OY4MMKEe2oR4DqB1cnyQ">
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_Y6GiocMKEe2oR4DqB1cnyQ" fontName="Segoe UI"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6GiosMKEe2oR4DqB1cnyQ"/>
+                    </children>
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_Y6F7lMMKEe2oR4DqB1cnyQ" fontName="Segoe UI" fontHeight="12"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6F7lcMKEe2oR4DqB1cnyQ" x="-22" width="30" height="30"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_ExsnsbxsEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExsnsrxsEe2bCOMYyB-eQQ" x="30" y="29" width="141" height="30"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_ZQkcfLxoEe2bCOMYyB-eQQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_ZQkcfbxoEe2bCOMYyB-eQQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ZQkceLxoEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZQkcebxoEe2bCOMYyB-eQQ" x="1132" y="157" width="278"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2b3nHLxqEe2bCOMYyB-eQQ" type="3007" element="_2bGLALxqEe2bCOMYyB-eQQ">
+              <children xmi:type="notation:Node" xmi:id="_2b4OILxqEe2bCOMYyB-eQQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_2b4OIbxqEe2bCOMYyB-eQQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_3zLYTLxqEe2bCOMYyB-eQQ" type="3003" element="_3yZ8MbxqEe2bCOMYyB-eQQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_3zLYTbxqEe2bCOMYyB-eQQ" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3zLYTrxqEe2bCOMYyB-eQQ"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_TerbwMMKEe2oR4DqB1cnyQ" type="3001" element="_TdqvIMMKEe2oR4DqB1cnyQ">
+                <children xmi:type="notation:Node" xmi:id="_TesC0MMKEe2oR4DqB1cnyQ" type="5001">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_TesC0cMKEe2oR4DqB1cnyQ" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_Tet4AMMKEe2oR4DqB1cnyQ" type="3002" element="_TdskUMMKEe2oR4DqB1cnyQ">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_Tet4AcMKEe2oR4DqB1cnyQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tet4AsMKEe2oR4DqB1cnyQ"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_TerbwcMKEe2oR4DqB1cnyQ" fontName="Segoe UI" fontHeight="12"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TerbwsMKEe2oR4DqB1cnyQ" x="-108" width="116" height="80"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2b3nHbxqEe2bCOMYyB-eQQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2b3nHrxqEe2bCOMYyB-eQQ" x="1575" y="613" width="151" height="81"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rD8aoLxsEe2bCOMYyB-eQQ" type="3007" element="_rDE3_LxsEe2bCOMYyB-eQQ">
+              <children xmi:type="notation:Node" xmi:id="_rD8ao7xsEe2bCOMYyB-eQQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_rD8apLxsEe2bCOMYyB-eQQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_rD9BsrxsEe2bCOMYyB-eQQ" type="3017" element="_rDK-kLxsEe2bCOMYyB-eQQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_rD9Bs7xsEe2bCOMYyB-eQQ" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rD9BtLxsEe2bCOMYyB-eQQ"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_hPHFwMMKEe2oR4DqB1cnyQ" type="3001" element="_hNIIwsMKEe2oR4DqB1cnyQ">
+                <children xmi:type="notation:Node" xmi:id="_hPHs0MMKEe2oR4DqB1cnyQ" type="5001">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_hPHs0cMKEe2oR4DqB1cnyQ" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_hPHs0sMKEe2oR4DqB1cnyQ" type="3002" element="_hNIv0MMKEe2oR4DqB1cnyQ">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_hPHs08MKEe2oR4DqB1cnyQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hPHs1MMKEe2oR4DqB1cnyQ"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_hPHFwcMKEe2oR4DqB1cnyQ" fontName="Segoe UI" fontHeight="12"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hPHFwsMKEe2oR4DqB1cnyQ" x="-22" width="30" height="30"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rD8aobxsEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rD8aorxsEe2bCOMYyB-eQQ" x="950" y="139" width="131" height="130"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rD8apbxsEe2bCOMYyB-eQQ" type="3007" element="_rDLlobxsEe2bCOMYyB-eQQ">
+              <children xmi:type="notation:Node" xmi:id="_rD9BsLxsEe2bCOMYyB-eQQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_rD9BsbxsEe2bCOMYyB-eQQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_rD9BtbxsEe2bCOMYyB-eQQ" type="3017" element="_rDLlorxsEe2bCOMYyB-eQQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_rD9BtrxsEe2bCOMYyB-eQQ" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rD9Bt7xsEe2bCOMYyB-eQQ"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_hPIT4MMKEe2oR4DqB1cnyQ" type="3001" element="_hNKlAMMKEe2oR4DqB1cnyQ">
+                <children xmi:type="notation:Node" xmi:id="_hPIT48MKEe2oR4DqB1cnyQ" type="5001">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_hPIT5MMKEe2oR4DqB1cnyQ" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_hPI68MMKEe2oR4DqB1cnyQ" type="3002" element="_hNKlAcMKEe2oR4DqB1cnyQ">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_hPI68cMKEe2oR4DqB1cnyQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hPI68sMKEe2oR4DqB1cnyQ"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_hPIT4cMKEe2oR4DqB1cnyQ" fontName="Segoe UI" fontHeight="12"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hPIT4sMKEe2oR4DqB1cnyQ" y="-70" width="136" height="78"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rD8aprxsEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rD8ap7xsEe2bCOMYyB-eQQ" x="1179" y="625" width="146" height="121"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_PGGMhbxoEe2bCOMYyB-eQQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_PGGMhrxoEe2bCOMYyB-eQQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_PGGMgbxoEe2bCOMYyB-eQQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PGGMgrxoEe2bCOMYyB-eQQ" x="10" y="5" width="2260" height="1096"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_UMJosrxaEe2N6_oE4zYTRg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_UMTZsLxaEe2N6_oE4zYTRg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_UMUAwLxaEe2N6_oE4zYTRg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_PFMNkLxoEe2bCOMYyB-eQQ" name="HomeAutomationSystem: CPS">
+      <target xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0"/>
+      <semanticElements xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_PFM0oLxoEe2bCOMYyB-eQQ" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="194,239,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_PFM0orxoEe2bCOMYyB-eQQ" name="BedPressureSensorPredictionSystem">
+        <target xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.0"/>
+        <semanticElements xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_PFM0o7xoEe2bCOMYyB-eQQ" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_PFM0pbxoEe2bCOMYyB-eQQ" name="computerBedPressureSensor : hardware">
+          <target xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0"/>
+          <semanticElements xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_PFM0prxoEe2bCOMYyB-eQQ" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_PFNbs7xoEe2bCOMYyB-eQQ" name="LinusOS : SoftwareTool">
+            <target xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0"/>
+            <semanticElements xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_PFNbtLxoEe2bCOMYyB-eQQ" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_PFNbtrxoEe2bCOMYyB-eQQ" name="pythonFlaskServerForBedPressure : SoftwareTool">
+              <target xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0"/>
+              <semanticElements xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_PFNbt7xoEe2bCOMYyB-eQQ" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']"/>
+              <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_PFNbubxoEe2bCOMYyB-eQQ" name="bedPressureSimulationService : Service">
+                <target xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0"/>
+                <semanticElements xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0"/>
+                <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+                <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+                <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+                <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_PFNburxoEe2bCOMYyB-eQQ" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+                  <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@style"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']"/>
+                <ownedDiagramElements xmi:type="diagram:DNode" uid="_Ewvlc7xsEe2bCOMYyB-eQQ" name="bedPressurePredictorModel : Script" width="3" height="3" resizeKind="NSEW">
+                  <target xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@component.0"/>
+                  <semanticElements xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@component.0"/>
+                  <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Y5EA0sMKEe2oR4DqB1cnyQ" name="bedPressurePredictorModel : Script" width="3" height="3" resizeKind="NSEW">
+                    <target xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@component.0/@port.0"/>
+                    <semanticElements xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@component.0/@port.0"/>
+                    <ownedStyle xmi:type="diagram:Dot" uid="_Y5FO8MMKEe2oR4DqB1cnyQ" labelSize="12" labelPosition="node" backgroundColor="239,41,41">
+                      <description xmi:type="style:DotDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']/@style"/>
+                    </ownedStyle>
+                    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']"/>
+                  </ownedBorderedNodes>
+                  <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+                  <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+                  <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+                  <ownedStyle xmi:type="diagram:Square" uid="_EwvldLxsEe2bCOMYyB-eQQ" labelSize="12" labelPosition="node">
+                    <description xmi:type="style:SquareDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@style"/>
+                  </ownedStyle>
+                  <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']"/>
+                </ownedDiagramElements>
+                <ownedDiagramElements xmi:type="diagram:DNode" uid="_sJpefbxsEe2bCOMYyB-eQQ" name="httpAPI : Connector" width="3" height="3" resizeKind="NSEW">
+                  <target xmi:type="dtmodel:Connector" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@connector.0"/>
+                  <semanticElements xmi:type="dtmodel:Connector" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@connector.0"/>
+                  <ownedBorderedNodes xmi:type="diagram:DNode" uid="_jVgxkcMKEe2oR4DqB1cnyQ" width="3" height="3" resizeKind="NSEW">
+                    <target xmi:type="dtmodel:ConnectorEnd" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@connector.0/@connectorend.0"/>
+                    <semanticElements xmi:type="dtmodel:ConnectorEnd" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@connector.0/@connectorend.0"/>
+                    <ownedStyle xmi:type="diagram:Dot" uid="_jVgxksMKEe2oR4DqB1cnyQ" labelSize="12" labelPosition="node" backgroundColor="39,76,114">
+                      <description xmi:type="style:DotDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Connector']/@borderedNodeMappings[name='ConnectorEnd']/@style"/>
+                    </ownedStyle>
+                    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Connector']/@borderedNodeMappings[name='ConnectorEnd']"/>
+                  </ownedBorderedNodes>
+                  <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+                  <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+                  <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+                  <ownedStyle xmi:type="diagram:Lozenge" uid="_sJpefrxsEe2bCOMYyB-eQQ" labelSize="12" labelPosition="node">
+                    <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Connector']/@style"/>
+                  </ownedStyle>
+                  <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Connector']"/>
+                </ownedDiagramElements>
+              </ownedDiagramElements>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_EwvldrxsEe2bCOMYyB-eQQ" name="wifiCard : Hardware" width="3" height="3" resizeKind="NSEW">
+            <target xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@component.0"/>
+            <semanticElements xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@component.0"/>
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Y5HEIsMKEe2oR4DqB1cnyQ" name="wifiCard : Hardware" width="3" height="3" resizeKind="NSEW">
+              <target xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@component.0/@port.0"/>
+              <semanticElements xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@configuration.0/@configuration.0/@component.0/@port.0"/>
+              <ownedStyle xmi:type="diagram:Dot" uid="_Y5HrMMMKEe2oR4DqB1cnyQ" labelSize="12" labelPosition="node" backgroundColor="239,41,41">
+                <description xmi:type="style:DotDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']"/>
+            </ownedBorderedNodes>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:Square" uid="_Ewvld7xsEe2bCOMYyB-eQQ" labelSize="12" labelPosition="node">
+              <description xmi:type="style:SquareDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_ZQeV0rxoEe2bCOMYyB-eQQ" name="OpenHabPlatform : CPS">
+        <target xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.1"/>
+        <semanticElements xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ZQeV07xoEe2bCOMYyB-eQQ" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_ZQfj8LxoEe2bCOMYyB-eQQ" name="RaspberryPi : hardware">
+          <target xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0"/>
+          <semanticElements xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ZQfj8bxoEe2bCOMYyB-eQQ" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_ZQfj87xoEe2bCOMYyB-eQQ" name="RaspberriPiOS : Software">
+            <target xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0"/>
+            <semanticElements xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ZQfj9LxoEe2bCOMYyB-eQQ" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_ZQfj9rxoEe2bCOMYyB-eQQ" name="OpenHab : softwareTool">
+              <target xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0"/>
+              <semanticElements xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ZQfj97xoEe2bCOMYyB-eQQ" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']"/>
+              <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_ZQfj-bxoEe2bCOMYyB-eQQ" name="BedPressureDataCollector : Service">
+                <target xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0"/>
+                <semanticElements xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0"/>
+                <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+                <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+                <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+                <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ZQgLALxoEe2bCOMYyB-eQQ" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+                  <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@style"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']"/>
+                <ownedDiagramElements xmi:type="diagram:DNode" uid="_EwwMiLxsEe2bCOMYyB-eQQ" name="bedPressureSensorThing : Script" width="3" height="3" resizeKind="NSEW">
+                  <target xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@component.0"/>
+                  <semanticElements xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@component.0"/>
+                  <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Y5JgYsMKEe2oR4DqB1cnyQ" name="bedPressureSensorThing : Script" width="3" height="3" resizeKind="NSEW">
+                    <target xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@component.0/@port.0"/>
+                    <semanticElements xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@component.0/@port.0"/>
+                    <ownedStyle xmi:type="diagram:Dot" uid="_Y5JgY8MKEe2oR4DqB1cnyQ" labelSize="12" labelPosition="node" backgroundColor="239,41,41">
+                      <description xmi:type="style:DotDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']/@style"/>
+                    </ownedStyle>
+                    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']"/>
+                  </ownedBorderedNodes>
+                  <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+                  <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+                  <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+                  <ownedStyle xmi:type="diagram:Square" uid="_EwwMibxsEe2bCOMYyB-eQQ" labelSize="12" labelPosition="node">
+                    <description xmi:type="style:SquareDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@style"/>
+                  </ownedStyle>
+                  <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']"/>
+                </ownedDiagramElements>
+                <ownedDiagramElements xmi:type="diagram:DNode" uid="_EwwzkLxsEe2bCOMYyB-eQQ" name="bedPressureSensorPredictorThong : Script" width="3" height="3" resizeKind="NSEW">
+                  <target xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@component.1"/>
+                  <semanticElements xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@component.1"/>
+                  <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Y5KHcMMKEe2oR4DqB1cnyQ" name="bedPressureSensorPredictorThong : Script" width="3" height="3" resizeKind="NSEW">
+                    <target xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@component.1/@port.0"/>
+                    <semanticElements xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@component.1/@port.0"/>
+                    <ownedStyle xmi:type="diagram:Dot" uid="_Y5KHccMKEe2oR4DqB1cnyQ" labelSize="12" labelPosition="node" backgroundColor="239,41,41">
+                      <description xmi:type="style:DotDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']/@style"/>
+                    </ownedStyle>
+                    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']"/>
+                  </ownedBorderedNodes>
+                  <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+                  <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+                  <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+                  <ownedStyle xmi:type="diagram:Square" uid="_EwwzkbxsEe2bCOMYyB-eQQ" labelSize="12" labelPosition="node">
+                    <description xmi:type="style:SquareDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@style"/>
+                  </ownedStyle>
+                  <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']"/>
+                </ownedDiagramElements>
+                <ownedDiagramElements xmi:type="diagram:DNode" uid="_sJrTpLxsEe2bCOMYyB-eQQ" name="httpBinding : Connector" width="3" height="3" resizeKind="NSEW">
+                  <target xmi:type="dtmodel:Connector" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@connector.0"/>
+                  <semanticElements xmi:type="dtmodel:Connector" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@connector.0"/>
+                  <ownedBorderedNodes xmi:type="diagram:DNode" uid="_jVlDAsMKEe2oR4DqB1cnyQ" name="httpBinding : Connector" width="3" height="3" resizeKind="NSEW">
+                    <target xmi:type="dtmodel:ConnectorEnd" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@connector.0/@connectorend.0"/>
+                    <semanticElements xmi:type="dtmodel:ConnectorEnd" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@connector.0/@connectorend.0"/>
+                    <ownedStyle xmi:type="diagram:Dot" uid="_jVlDA8MKEe2oR4DqB1cnyQ" labelSize="12" labelPosition="node" backgroundColor="39,76,114">
+                      <description xmi:type="style:DotDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Connector']/@borderedNodeMappings[name='ConnectorEnd']/@style"/>
+                    </ownedStyle>
+                    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Connector']/@borderedNodeMappings[name='ConnectorEnd']"/>
+                  </ownedBorderedNodes>
+                  <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+                  <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+                  <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+                  <ownedStyle xmi:type="diagram:Lozenge" uid="_sJr6sLxsEe2bCOMYyB-eQQ" labelSize="12" labelPosition="node">
+                    <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Connector']/@style"/>
+                  </ownedStyle>
+                  <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Connector']"/>
+                </ownedDiagramElements>
+              </ownedDiagramElements>
+              <ownedDiagramElements xmi:type="diagram:DNode" uid="_Ewwzk7xsEe2bCOMYyB-eQQ" name="zipatoLightBulbThing : Script" width="3" height="3" resizeKind="NSEW">
+                <target xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@component.0"/>
+                <semanticElements xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@component.0"/>
+                <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Y5KuhMMKEe2oR4DqB1cnyQ" name="zipatoLightBulbThing : Script" width="3" height="3" resizeKind="NSEW">
+                  <target xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@component.0/@port.0"/>
+                  <semanticElements xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@component.0/@port.0"/>
+                  <ownedStyle xmi:type="diagram:Dot" uid="_Y5KuhcMKEe2oR4DqB1cnyQ" labelSize="12" labelPosition="node" backgroundColor="239,41,41">
+                    <description xmi:type="style:DotDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']/@style"/>
+                  </ownedStyle>
+                  <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']"/>
+                </ownedBorderedNodes>
+                <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+                <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+                <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+                <ownedStyle xmi:type="diagram:Square" uid="_EwwzlLxsEe2bCOMYyB-eQQ" labelSize="12" labelPosition="node">
+                  <description xmi:type="style:SquareDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@style"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']"/>
+              </ownedDiagramElements>
+              <ownedDiagramElements xmi:type="diagram:DNode" uid="_sJr6tLxsEe2bCOMYyB-eQQ" name="zWaveBinding : Connector" width="3" height="3" resizeKind="NSEW">
+                <target xmi:type="dtmodel:Connector" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@connector.0"/>
+                <semanticElements xmi:type="dtmodel:Connector" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@connector.0"/>
+                <ownedBorderedNodes xmi:type="diagram:DNode" uid="_jVm4MMMKEe2oR4DqB1cnyQ" name="zWaveBinding : Connector" width="3" height="3" resizeKind="NSEW">
+                  <target xmi:type="dtmodel:ConnectorEnd" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@connector.0/@connectorend.0"/>
+                  <semanticElements xmi:type="dtmodel:ConnectorEnd" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@connector.0/@connectorend.0"/>
+                  <ownedStyle xmi:type="diagram:Dot" uid="_jVm4McMKEe2oR4DqB1cnyQ" labelSize="12" labelPosition="node" backgroundColor="39,76,114">
+                    <description xmi:type="style:DotDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Connector']/@borderedNodeMappings[name='ConnectorEnd']/@style"/>
+                  </ownedStyle>
+                  <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Connector']/@borderedNodeMappings[name='ConnectorEnd']"/>
+                </ownedBorderedNodes>
+                <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+                <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+                <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+                <ownedStyle xmi:type="diagram:Lozenge" uid="_sJr6tbxsEe2bCOMYyB-eQQ" labelSize="12" labelPosition="node">
+                  <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Connector']/@style"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Connector']"/>
+              </ownedDiagramElements>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_EwxaoLxsEe2bCOMYyB-eQQ" name="zWaveDongle : Hardware" width="3" height="3" resizeKind="NSEW">
+            <target xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@component.0"/>
+            <semanticElements xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@component.0"/>
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Y5L8pMMKEe2oR4DqB1cnyQ" name="zWaveDongle : Hardware" width="3" height="3" resizeKind="NSEW">
+              <target xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@component.0/@port.0"/>
+              <semanticElements xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@component.0/@port.0"/>
+              <ownedStyle xmi:type="diagram:Dot" uid="_Y5L8pcMKEe2oR4DqB1cnyQ" labelSize="12" labelPosition="node" backgroundColor="239,41,41">
+                <description xmi:type="style:DotDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']"/>
+            </ownedBorderedNodes>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:Square" uid="_EwxaobxsEe2bCOMYyB-eQQ" labelSize="12" labelPosition="node">
+              <description xmi:type="style:SquareDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_Ewxao7xsEe2bCOMYyB-eQQ" name="wifiCard : Hardware" width="3" height="3" resizeKind="NSEW">
+            <target xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@component.1"/>
+            <semanticElements xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@component.1"/>
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Y5MjsMMKEe2oR4DqB1cnyQ" name="wifiCard : Hardware" width="3" height="3" resizeKind="NSEW">
+              <target xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@component.1/@port.0"/>
+              <semanticElements xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@configuration.1/@configuration.0/@component.1/@port.0"/>
+              <ownedStyle xmi:type="diagram:Dot" uid="_Y5MjscMKEe2oR4DqB1cnyQ" labelSize="12" labelPosition="node" backgroundColor="239,41,41">
+                <description xmi:type="style:DotDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']"/>
+            </ownedBorderedNodes>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:Square" uid="_EwxapLxsEe2bCOMYyB-eQQ" labelSize="12" labelPosition="node">
+              <description xmi:type="style:SquareDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_ZQeV1bxoEe2bCOMYyB-eQQ" name="smartLightBulb : CPS">
+        <target xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.2"/>
+        <semanticElements xmi:type="dtmodel:Configuration" href="My.dtmodel#//@digitaltwin.0/@configuration.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ZQeV1rxoEe2bCOMYyB-eQQ" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_EwxaprxsEe2bCOMYyB-eQQ" name="zipatoLightBulb : Harware" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@configuration.2/@component.0"/>
+          <semanticElements xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@configuration.2/@component.0"/>
+          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Y5Nx0sMKEe2oR4DqB1cnyQ" name="zipatoLightBulb : Harware" width="3" height="3" resizeKind="NSEW">
+            <target xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@configuration.2/@component.0/@port.0"/>
+            <semanticElements xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@configuration.2/@component.0/@port.0"/>
+            <ownedStyle xmi:type="diagram:Dot" uid="_Y5OY4MMKEe2oR4DqB1cnyQ" labelSize="12" labelPosition="node" backgroundColor="239,41,41">
+              <description xmi:type="style:DotDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']"/>
+          </ownedBorderedNodes>
+          <ownedStyle xmi:type="diagram:Square" uid="_Ewxap7xsEe2bCOMYyB-eQQ" labelSize="12" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']/@subNodeMappings[name='Component']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_2bGLALxqEe2bCOMYyB-eQQ" name="wifiRouter : Hardware" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@component.0"/>
+        <semanticElements xmi:type="dtmodel:Component" href="My.dtmodel#//@digitaltwin.0/@component.0"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_TdqvIMMKEe2oR4DqB1cnyQ" name="wifiRouter : Hardware" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@component.0/@port.0"/>
+          <semanticElements xmi:type="dtmodel:Port" href="My.dtmodel#//@digitaltwin.0/@component.0/@port.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Dot" uid="_TdskUMMKEe2oR4DqB1cnyQ" labelSize="12" labelPosition="node" backgroundColor="239,41,41">
+            <description xmi:type="style:DotDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Component']/@borderedNodeMappings[name='Port']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_3yZ8MbxqEe2bCOMYyB-eQQ" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Component']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Component']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_rDE3_LxsEe2bCOMYyB-eQQ" name="zWave : Connector" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="dtmodel:Connector" href="My.dtmodel#//@digitaltwin.0/@connector.0"/>
+        <semanticElements xmi:type="dtmodel:Connector" href="My.dtmodel#//@digitaltwin.0/@connector.0"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_hNIIwsMKEe2oR4DqB1cnyQ" name="zWave : Connector" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="dtmodel:ConnectorEnd" href="My.dtmodel#//@digitaltwin.0/@connector.0/@connectorend.0"/>
+          <semanticElements xmi:type="dtmodel:ConnectorEnd" href="My.dtmodel#//@digitaltwin.0/@connector.0/@connectorend.0"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_hNIv0MMKEe2oR4DqB1cnyQ" labelSize="12" labelPosition="node" backgroundColor="39,76,114">
+            <description xmi:type="style:DotDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']/@borderedNodeMappings[name='ConnectorEnd']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']/@borderedNodeMappings[name='ConnectorEnd']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Lozenge" uid="_rDK-kLxsEe2bCOMYyB-eQQ" labelSize="12" labelPosition="node">
+          <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_rDLlobxsEe2bCOMYyB-eQQ" name="wifi : Connector" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="dtmodel:Connector" href="My.dtmodel#//@digitaltwin.0/@connector.1"/>
+        <semanticElements xmi:type="dtmodel:Connector" href="My.dtmodel#//@digitaltwin.0/@connector.1"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_hNKlAMMKEe2oR4DqB1cnyQ" name="wifi : Connector" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="dtmodel:ConnectorEnd" href="My.dtmodel#//@digitaltwin.0/@connector.1/@connectorend.0"/>
+          <semanticElements xmi:type="dtmodel:ConnectorEnd" href="My.dtmodel#//@digitaltwin.0/@connector.1/@connectorend.0"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_hNKlAcMKEe2oR4DqB1cnyQ" labelSize="12" labelPosition="node" backgroundColor="39,76,114">
+            <description xmi:type="style:DotDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']/@borderedNodeMappings[name='ConnectorEnd']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']/@borderedNodeMappings[name='ConnectorEnd']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Lozenge" uid="_rDLlorxsEe2bCOMYyB-eQQ" labelSize="12" labelPosition="node">
+          <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_ULceELxaEe2N6_oE4zYTRg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer"/>
+    <target xmi:type="dtmodel:DigitalTwin" href="My.dtmodel#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

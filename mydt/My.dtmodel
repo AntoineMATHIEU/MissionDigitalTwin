@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dtmodel:DigitalTwin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dtmodel="http://www.example.org/dtmodel">
+  <digitaltwin name="HomeAutomationSystem: CPS">
+    <configuration name="BedPressureSensorPredictionSystem">
+      <configuration name="computerBedPressureSensor : hardware">
+        <configuration name="LinusOS : SoftwareTool">
+          <configuration name="pythonFlaskServerForBedPressure : SoftwareTool">
+            <configuration name="bedPressureSimulationService : Service">
+              <connector name="httpAPI : Connector">
+                <connectorend/>
+              </connector>
+              <component name="bedPressurePredictorModel : Script">
+                <port name="bedPressurePredictorModel : Script"/>
+              </component>
+            </configuration>
+          </configuration>
+        </configuration>
+        <component name="wifiCard : Hardware">
+          <port name="wifiCard : Hardware"/>
+        </component>
+      </configuration>
+    </configuration>
+    <configuration name="OpenHabPlatform : CPS">
+      <configuration name="RaspberryPi : hardware">
+        <configuration name="RaspberriPiOS : Software">
+          <configuration name="OpenHab : softwareTool">
+            <configuration name="BedPressureDataCollector : Service">
+              <connector name="httpBinding : Connector">
+                <connectorend name="httpBinding : Connector"/>
+              </connector>
+              <component name="bedPressureSensorThing : Script">
+                <port name="bedPressureSensorThing : Script"/>
+              </component>
+              <component name="bedPressureSensorPredictorThong : Script">
+                <port name="bedPressureSensorPredictorThong : Script"/>
+              </component>
+            </configuration>
+            <connector name="zWaveBinding : Connector">
+              <connectorend name="zWaveBinding : Connector"/>
+            </connector>
+            <component name="zipatoLightBulbThing : Script">
+              <port name="zipatoLightBulbThing : Script"/>
+            </component>
+          </configuration>
+        </configuration>
+        <component name="zWaveDongle : Hardware">
+          <port name="zWaveDongle : Hardware"/>
+        </component>
+        <component name="wifiCard : Hardware">
+          <port name="wifiCard : Hardware"/>
+        </component>
+      </configuration>
+    </configuration>
+    <configuration name="smartLightBulb : CPS">
+      <component name="zipatoLightBulb : Harware">
+        <port name="zipatoLightBulb : Harware"/>
+      </component>
+    </configuration>
+    <connector name="zWave : Connector">
+      <connectorend name="zWave : Connector"/>
+    </connector>
+    <connector name="wifi : Connector">
+      <connectorend port="//@digitaltwin.0/@component.0/@port.0" name="wifi : Connector"/>
+    </connector>
+    <component name="wifiRouter : Hardware">
+      <port connectorend="//@digitaltwin.0/@connector.1/@connectorend.0" name="wifiRouter : Hardware"/>
+    </component>
+  </digitaltwin>
+</dtmodel:DigitalTwin>
