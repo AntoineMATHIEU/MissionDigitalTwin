@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="project" version="12.0.0.2017041100">
+  <ownedViewpoints name="MyViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="dtDiagram" domainClass="dtmodel.DigitalTwin" enablePopupBars="true">
+      <filters xsi:type="filter:CompositeFilterDescription" name="hide">
+        <filters xsi:type="filter:MappingFilter" mappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']" semanticConditionExpression="aql:self.show==true"/>
+      </filters>
+      <defaultLayer name="Default">
+        <edgeMappings name="Connection" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']/@borderedNodeMappings[name='ConnectorEnd']" targetFinderExpression="feature:port">
+          <style targetArrow="NoDecoration" routingStyle="manhattan">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="Configuration" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditName']" semanticCandidatesExpression="feature:digitaltwin" doubleClickDescription="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='Nav']" synchronizationLock="true" domainClass="dtmodel.Configuration   ">
+          <subNodeMappings name="Component" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditName']" semanticCandidatesExpression="aql:self.component" synchronizationLock="true" domainClass="dtmodel.Component">
+            <borderedNodeMappings name="Port" semanticCandidatesExpression="feature:eAllContents" synchronizationLock="true" domainClass="dtmodel.Port">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" labelPosition="node" workspacePath="/my.project.design/description/Objets/port_disconnected.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <forbiddenSides>SOUTH</forbiddenSides>
+                <forbiddenSides>EAST</forbiddenSides>
+                <forbiddenSides>NORTH</forbiddenSides>
+              </style>
+              <conditionnalStyles predicateExpression="feature:connectorend">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" labelPosition="node" workspacePath="/my.project.design/description/Objets/port_connected.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <forbiddenSides>SOUTH</forbiddenSides>
+                  <forbiddenSides>EAST</forbiddenSides>
+                  <forbiddenSides>NORTH</forbiddenSides>
+                </style>
+              </conditionnalStyles>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" iconPath="/my.project.design/description/Icones/icon_component.png" sizeComputationExpression="30" labelPosition="node" resizeKind="NSEW" workspacePath="/my.project.design/description/Objets/component.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Connector" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditName']" semanticCandidatesExpression="aql:self.connector" synchronizationLock="true" domainClass="dtmodel.Connector">
+            <borderedNodeMappings name="ConnectorEnd" semanticCandidatesExpression="feature:eAllContents" synchronizationLock="true" domainClass="dtmodel.ConnectorEnd">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="2" labelPosition="node" workspacePath="/my.project.design/description/Objets/connectorend.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </borderedNodeMappings>
+            <conditionnalStyles predicateExpression="[self.type = ConnectorType::&quot;wifi&quot;/]">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="6" workspacePath="/my.project.design/description/Objets/connector_wifi.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </conditionnalStyles>
+            <conditionnalStyles predicateExpression="[self.type = ConnectorType::&quot;zWave&quot;/]">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="6" workspacePath="/my.project.design/description/Objets/connector_zwave.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </conditionnalStyles>
+            <conditionnalStyles predicateExpression="[self.type = ConnectorType::&quot;http&quot;/]">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="6" workspacePath="/my.project.design/description/Objets/connector_https.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </conditionnalStyles>
+            <conditionnalStyles predicateExpression="[self.type = ConnectorType::&quot;other&quot;/]">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="6" workspacePath="/my.project.design/description/Objets/connector.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </conditionnalStyles>
+          </subNodeMappings>
+          <subContainerMappings name="subLevel" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditName']" semanticCandidatesExpression="feature:configuration" doubleClickDescription="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='Nav']" synchronizationLock="true" domainClass="dtmodel.Configuration" reusedNodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Component'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']" reusedContainerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']">
+            <style xsi:type="style:WorkspaceImageDescription" borderSizeComputationExpression="3" borderLineStyle="dash" labelSize="16" iconPath="/my.project.design/description/Icones/icon_configuration.png" sizeComputationExpression="5" arcWidth="465" arcHeight="440" workspacePath="/my.project.design/description/background/background_config.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:WorkspaceImageDescription" borderSizeComputationExpression="5" labelSize="16" iconPath="/my.project.design/description/Icones/icon_configuration.png" sizeComputationExpression="5" workspacePath="/my.project.design/description/background/background_config.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="action">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Create Configuration" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']" iconPath="/my.project.design/description/Icones/icon_configuration.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="dtmodel.Configuration" referenceName="configuration"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create Component" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Component']" iconPath="/my.project.design/description/Icones/icon_component.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="dtmodel.Component" referenceName="component"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create Connector other" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']" iconPath="/my.project.design/description/Icones/icon_connector.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="dtmodel.Connector" referenceName="connector">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="other"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create Connector zWave" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']" iconPath="/my.project.design/description/Icones/icon_zWave.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="dtmodel.Connector" referenceName="connector">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="zWave"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create Connector wifi" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']" iconPath="/my.project.design/description/Icones/icon_wifi.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="dtmodel.Connector" referenceName="connector">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="wifi"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create Connector http" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']" iconPath="/my.project.design/description/Icones/icon_http.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="dtmodel.Connector" referenceName="connector">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="http"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditName">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create Port">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="Nav" mappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='subLevel']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='NavigationConfiguration']"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="NavigationConfiguration" initialisation="true" domainClass="dtmodel.Configuration">
+      <defaultLayer name="Default">
+        <containerMappings name="Configuration" semanticCandidatesExpression="var:self" domainClass="dtmodel.Configuration">
+          <subNodeMappings name="Component" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditName']" semanticCandidatesExpression="aql:self.component" synchronizationLock="true" domainClass="dtmodel.Component">
+            <borderedNodeMappings name="Port" semanticCandidatesExpression="feature:eAllContents" synchronizationLock="true" domainClass="dtmodel.Port">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" labelPosition="node" workspacePath="/my.project.design/description/Objets/port_disconnected.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <forbiddenSides>SOUTH</forbiddenSides>
+                <forbiddenSides>EAST</forbiddenSides>
+                <forbiddenSides>NORTH</forbiddenSides>
+              </style>
+              <conditionnalStyles predicateExpression="feature:connectorend">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" labelPosition="node" workspacePath="/my.project.design/description/Objets/port_connected.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <forbiddenSides>SOUTH</forbiddenSides>
+                  <forbiddenSides>EAST</forbiddenSides>
+                  <forbiddenSides>NORTH</forbiddenSides>
+                </style>
+              </conditionnalStyles>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" iconPath="/my.project.design/description/Icones/icon_component.png" sizeComputationExpression="30" labelPosition="node" resizeKind="NSEW" workspacePath="/my.project.design/description/Objets/component.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Connector" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditName']" semanticCandidatesExpression="aql:self.connector" synchronizationLock="true" domainClass="dtmodel.Connector">
+            <borderedNodeMappings name="ConnectorEnd" semanticCandidatesExpression="feature:eAllContents" synchronizationLock="true" domainClass="dtmodel.ConnectorEnd">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="2" labelPosition="node" workspacePath="/my.project.design/description/Objets/connectorend.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </borderedNodeMappings>
+            <conditionnalStyles predicateExpression="[self.type = ConnectorType::&quot;wifi&quot;/]">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="6" workspacePath="/my.project.design/description/Objets/connector_wifi.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </conditionnalStyles>
+            <conditionnalStyles predicateExpression="[self.type = ConnectorType::&quot;zWave&quot;/]">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="6" workspacePath="/my.project.design/description/Objets/connector_zwave.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </conditionnalStyles>
+            <conditionnalStyles predicateExpression="[self.type = ConnectorType::&quot;http&quot;/]">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="6" workspacePath="/my.project.design/description/Objets/connector_https.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </conditionnalStyles>
+            <conditionnalStyles predicateExpression="[self.type = ConnectorType::&quot;other&quot;/]">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="6" workspacePath="/my.project.design/description/Objets/connector.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </conditionnalStyles>
+          </subNodeMappings>
+          <subContainerMappings name="SubLevel" navigationDescriptions="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='NavigationConfiguration']/@defaultLayer/@toolSections.0/@ownedTools[name='Navigation']" semanticCandidatesExpression="aql:self.configuration" doubleClickDescription="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='NavigationConfiguration']/@defaultLayer/@toolSections.0/@ownedTools[name='Nav']" domainClass="dtmodel.Configuration">
+            <style xsi:type="style:WorkspaceImageDescription" borderSizeComputationExpression="2" borderLineStyle="dash" labelSize="16" iconPath="/my.project.design/description/Icones/icon_configuration.png" sizeComputationExpression="5" workspacePath="/my.project.design/description/background/background_config.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:WorkspaceImageDescription" borderSizeComputationExpression="5" labelSize="16" iconPath="/my.project.design/description/Icones/icon_configuration.png" sizeComputationExpression="5" workspacePath="/my.project.design/description/background/background_config.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </containerMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:DiagramNavigationDescription" name="Navigation" diagramDescription="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='NavigationConfiguration']">
+            <containerViewVariable name="containerView"/>
+            <containerVariable name="container"/>
+            <representationNameVariable name="diagramName"/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="Nav" mappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='NavigationConfiguration']/@defaultLayer/@containerMappings[name='Configuration']/@subContainerMappings[name='SubLevel']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='NavigationConfiguration']"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create Component" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Component']" iconPath="/my.project.design/description/Icones/icon_component.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="dtmodel.Component" referenceName="component"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create Connector other" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']" iconPath="/my.project.design/description/Icones/icon_connector.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="dtmodel.Connector" referenceName="connector">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="other"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create Connector zWave" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']" iconPath="/my.project.design/description/Icones/icon_zWave.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="dtmodel.Connector" referenceName="connector">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="zWave"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create Connector wifi" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']" iconPath="/my.project.design/description/Icones/icon_wifi.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="dtmodel.Connector" referenceName="connector">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="wifi"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create Connector http" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='dtDiagram']/@defaultLayer/@containerMappings[name='Configuration']/@subNodeMappings[name='Connector']" iconPath="/my.project.design/description/Icones/icon_http.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="dtmodel.Connector" referenceName="connector">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="http"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="my.project.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

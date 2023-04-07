@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dtmodel:DigitalTwin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dtmodel="http://www.example.org/dtmodel">
+  <digitaltwin name="HomeAutomationSystem: CPS">
+    <configuration name="BedPressureSensorPredictionSystem">
+      <configuration name="computerBedPressureSensor : hardware">
+        <configuration name="LinusOS : SoftwareTool">
+          <configuration name="pythonFlaskServerForBedPressure : SoftwareTool">
+            <configuration name="bedPressureSimulationService : Service">
+              <connector name="httpAPI : Connector" type="http">
+                <connectorend port="//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@component.0/@port.0"/>
+                <connectorend port="//@digitaltwin.0/@configuration.0/@configuration.0/@component.0/@port.1"/>
+              </connector>
+              <component name="bedPressurePredictorModel : Script">
+                <port connectorend="//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@connector.0/@connectorend.0"/>
+              </component>
+            </configuration>
+          </configuration>
+        </configuration>
+        <component name="wifiCard : Hardware">
+          <port connectorend="//@digitaltwin.0/@connector.1/@connectorend.1"/>
+          <port connectorend="//@digitaltwin.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@connector.0/@connectorend.1"/>
+        </component>
+      </configuration>
+    </configuration>
+    <configuration name="OpenHabPlatform : CPS">
+      <configuration name="RaspberryPi : hardware">
+        <configuration name="RaspberriPiOS : Software">
+          <configuration name="OpenHab : softwareTool">
+            <configuration name="BedPressureDataCollector : Service">
+              <connector name="httpBinding : Connector">
+                <connectorend port="//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@component.0/@port.0"/>
+                <connectorend port="//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@component.1/@port.0"/>
+                <connectorend port="//@digitaltwin.0/@configuration.1/@configuration.0/@component.1/@port.1"/>
+              </connector>
+              <component name="bedPressureSensorThing : Script">
+                <port connectorend="//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@connector.0/@connectorend.0"/>
+              </component>
+              <component name="bedPressureSensorPredictorThong : Script">
+                <port connectorend="//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@connector.0/@connectorend.1"/>
+              </component>
+            </configuration>
+            <connector name="zWaveBinding : Connector">
+              <connectorend port="//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@component.0/@port.0"/>
+              <connectorend port="//@digitaltwin.0/@configuration.1/@configuration.0/@component.0/@port.1"/>
+            </connector>
+            <component name="zipatoLightBulbThing : Script">
+              <port connectorend="//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@connector.0/@connectorend.0"/>
+            </component>
+          </configuration>
+        </configuration>
+        <component name="zWaveDongle : Hardware">
+          <port connectorend="//@digitaltwin.0/@connector.0/@connectorend.1"/>
+          <port connectorend="//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@connector.0/@connectorend.1"/>
+        </component>
+        <component name="wifiCard : Hardware">
+          <port connectorend="//@digitaltwin.0/@connector.1/@connectorend.2"/>
+          <port connectorend="//@digitaltwin.0/@configuration.1/@configuration.0/@configuration.0/@configuration.0/@configuration.0/@connector.0/@connectorend.2"/>
+        </component>
+      </configuration>
+    </configuration>
+    <configuration name="smartLightBulb : CPS">
+      <component name="zipatoLightBulb : Harware">
+        <port connectorend="//@digitaltwin.0/@connector.0/@connectorend.0"/>
+      </component>
+    </configuration>
+    <connector name="Connector">
+      <connectorend port="//@digitaltwin.0/@configuration.2/@component.0/@port.0"/>
+      <connectorend port="//@digitaltwin.0/@configuration.1/@configuration.0/@component.0/@port.0"/>
+    </connector>
+    <connector name="" type="other">
+      <connectorend port="//@digitaltwin.0/@component.0/@port.0"/>
+      <connectorend port="//@digitaltwin.0/@configuration.0/@configuration.0/@component.0/@port.0"/>
+      <connectorend port="//@digitaltwin.0/@configuration.1/@configuration.0/@component.1/@port.0"/>
+    </connector>
+    <component name="wifiRouter : Hardware">
+      <port connectorend="//@digitaltwin.0/@connector.1/@connectorend.0"/>
+    </component>
+  </digitaltwin>
+</dtmodel:DigitalTwin>
